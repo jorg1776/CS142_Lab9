@@ -14,7 +14,7 @@ class Playlist
 		string GetName();
 		void AddSong(Song*);
 		void RemoveSong(int songIndex);
-		vector<Song*> GetSongs();
+		vector<Song*>* GetSongs();
 	private:
 		string name;
 		vector<Song*> songs;

@@ -16,4 +16,4 @@ void Playlist::AddSong(Song* song) { songs.push_back(song); }
 
 void Playlist::RemoveSong(int songIndex) { songs.erase(songs.begin() + songIndex); }
 
-vector<Song*> Playlist::GetSongs() { return songs; }
+vector<Song*>* Playlist::GetSongs() { return &songs; }
