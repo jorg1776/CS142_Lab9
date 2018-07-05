@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "Playlist.h"
 
-
 Playlist::Playlist(string name)
 {
 	this->name = name;
