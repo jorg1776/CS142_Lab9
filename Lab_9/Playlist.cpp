@@ -6,7 +6,6 @@ Playlist::Playlist(string name)
 	this->name = name;
 }
 
-
 Playlist::~Playlist()
 {
 }
