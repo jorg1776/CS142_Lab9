@@ -18,4 +18,6 @@ string Song::GetName() { return name; }
 
 string Song::GetLyrics() { return lyrics; }
 
+void Song::IncrementPlays() { timesPlayed++; }
+
 int Song::GetNumTimesPlayed() { return timesPlayed; }

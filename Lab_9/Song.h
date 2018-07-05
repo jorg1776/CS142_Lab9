@@ -11,6 +11,7 @@ class Song
 		~Song();
 		string GetName();
 		string GetLyrics();
+		void IncrementPlays();
 		int GetNumTimesPlayed();
 	private:
 		string name;
